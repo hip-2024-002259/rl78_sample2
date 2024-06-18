@@ -1,13 +1,13 @@
 品質記録情報
-2024年6月17日 11:07:26
+2024年6月18日 11:35:47
 
 ------ ビルド開始(RL78_Sample2, DefaultBuild) ------
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe src\main.c src\common.c src\timer.c src\int.c src\port.c src\watchdogtimer.c src\system.c src\systeminit.c src\panel.c src\digitalio.c src\counter.c src\74hc.c -cpu=S3 -obj_path=DefaultBuild "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF" -g -g_line -Osize -I include -c -msg_lang=japanese
-W0511186:CC-RL V1のオプション"-Osize"の評価期間は残り55日です。評価期間経過後は、暗黙に"-Olite"指定に変更されます。引き続き"-Osize"を利用したい場合は製品の購入をご検討ください。
+W0511186:CC-RL V1のオプション"-Osize"の評価期間は残り54日です。評価期間経過後は、暗黙に"-Olite"指定に変更されます。引き続き"-Osize"を利用したい場合は製品の購入をご検討ください。
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe src\cstart.asm src\opt_byte.asm -cpu=S3 -obj_path=DefaultBuild "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF" -g -c -msg_lang=japanese
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\rlink.exe -subcommand=DefaultBuild\RL78_Sample2.clnk
-W0561018:The evaluation period of CC-RL V1 is valid for the remaining 60 days. After that, functional limit will be applied. Please consider purchasing the product.
-W0561018:The evaluation period of CC-RL V1 is valid for the remaining 60 days. After that, functional limit will be applied. Please consider purchasing the product.
+W0561018:The evaluation period of CC-RL V1 is valid for the remaining 59 days. After that, functional limit will be applied. Please consider purchasing the product.
+W0561018:The evaluation period of CC-RL V1 is valid for the remaining 59 days. After that, functional limit will be applied. Please consider purchasing the product.
 Renesas Optimizing Linker Completed
 ------ ビルド終了(エラー:0個, 警告:3個)(RL78_Sample2, DefaultBuild) ------
 
@@ -54,8 +54,8 @@ DefaultBuild\RL78_Sample2.clnk :
 
 
 --- SHA1 hash value of output files ---
-C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\DefaultBuild\RL78_Sample2.abs: 972391637fb58fe5405b0c27e1db132a69d6713c
-C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\DefaultBuild\RL78_Sample2.hex: 7162bf92151a0d7c6a5f17ed405da74c8ac361e1
+C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\DefaultBuild\RL78_Sample2.abs: 0ba7ea8dedb42e09979733e07da612111cb7ce58
+C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\DefaultBuild\RL78_Sample2.hex: a4997572734c58af7841502d4c3c3c8744b92172
 
 
 --- システム情報 ---
@@ -81,13 +81,13 @@ C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\DefaultBuild\RL78_Sample2.hex
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *メモリ使用量
  *プライベート・ワーキング・セット
-  232 MB
+  358 MB
  *GDIオブジェクト数
-  1876
+  2489
  *USERオブジェクト数
-  1344
+  1464
  *開いているファイル
-  0 editors, 0 files, 0 KB
+  23 editors, 23 files, 211 KB
 
 --- ビルド・ツール・プラグイン情報 ---
 RH850ビルド・ツールCC-RH用プラグイン
@@ -243,6 +243,8 @@ C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\RL78_Sample2.mtpj
   
  * SMS Assemblerのバージョン
    V1.00.00.01 [29 May 2020]
+ * GREEN_DSP Structured Assembler のバージョン
+   V1.04.02
  
 
 デバッグ・ツール情報

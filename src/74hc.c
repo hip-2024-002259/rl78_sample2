@@ -775,6 +775,8 @@ UCHAR  IC_74HC4511_Evaluate( UCHAR State, UCHAR A_in, UCHAR B_in, UCHAR C_in, UC
 	/*							   abcdefgh		*/
 	UCHAR ucRet[11] =  { 0b11111100, 0b01100000, 0b11011010, 0b11110010, 0b01100110,
 							     0b10110110, 0b00111110, 0b11100000, 0b11111110, 0b11100110, 0b00000000 };
+							     
+	
 	UCHAR	ucValue;
 	
 	switch(State)
@@ -800,6 +802,7 @@ UCHAR  IC_74HC4511_Evaluate( UCHAR State, UCHAR A_in, UCHAR B_in, UCHAR C_in, UC
 	
 	if (ucValue > 10) ucValue = 10;
 	return ucRet[ucValue];
+	
 }
 
 /*******************************************************************************

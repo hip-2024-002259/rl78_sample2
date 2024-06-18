@@ -291,6 +291,7 @@ Macro definitions
 			e_out = (ucSeg>>3) & 0x01;											\
 			f_out = (ucSeg>>2) & 0x01;											\
 			g_out = (ucSeg>>1) & 0x01;											\
+			//h_out = ucSeg & 0x01;												\
 			IC74HC4511_Counter();												\
 	}																			\
 }
