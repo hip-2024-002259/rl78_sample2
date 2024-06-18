@@ -89,12 +89,15 @@ void main( void )
 * Arguments    : none
 * Return Value : none
 ********************************************************************************/
+
+
 void main_loop( void )
 {
+	int dot = fOFF;
 	while(1) {
 
 		/* Panel proccessing */
-		panel();
+		panel(&dot);
 
 		/* Watchdog timer reset start */
 		WDT_Reset();

@@ -1,5 +1,5 @@
 品質記録情報
-2024年6月18日 11:35:47
+2024年6月18日 14:30:15
 
 ------ ビルド開始(RL78_Sample2, DefaultBuild) ------
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe src\main.c src\common.c src\timer.c src\int.c src\port.c src\watchdogtimer.c src\system.c src\systeminit.c src\panel.c src\digitalio.c src\counter.c src\74hc.c -cpu=S3 -obj_path=DefaultBuild "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF" -g -g_line -Osize -I include -c -msg_lang=japanese
@@ -54,8 +54,8 @@ DefaultBuild\RL78_Sample2.clnk :
 
 
 --- SHA1 hash value of output files ---
-C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\DefaultBuild\RL78_Sample2.abs: 0ba7ea8dedb42e09979733e07da612111cb7ce58
-C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\DefaultBuild\RL78_Sample2.hex: a4997572734c58af7841502d4c3c3c8744b92172
+C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\DefaultBuild\RL78_Sample2.abs: 3c94d50fe38a080f210e571f01732557704ebb95
+C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\DefaultBuild\RL78_Sample2.hex: eadf519b9a329192a3257b1577b1f95f238a6d75
 
 
 --- システム情報 ---
@@ -81,11 +81,11 @@ C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\DefaultBuild\RL78_Sample2.hex
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *メモリ使用量
  *プライベート・ワーキング・セット
-  358 MB
+  373 MB
  *GDIオブジェクト数
-  2489
+  2553
  *USERオブジェクト数
-  1464
+  1496
  *開いているファイル
   23 editors, 23 files, 211 KB
 
@@ -250,6 +250,9 @@ C:\Users\r_kojima\Desktop\組込み\演習3\ensyu3\RL78_Sample2.mtpj
 デバッグ・ツール情報
  *RL78 シミュレータ
   Debugger Library V8.10.00.02 [12 May 2023]
+  RL78 Simulator V5.08.00.03 [17 May 2023]
+  Simulator ChipFile [R5F1058A] V1.05.00.01
+  RL78_G11 Simulator V2.08.00.01 [14 Apr 2023]
   
 
 その他のツール情報

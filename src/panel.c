@@ -76,7 +76,7 @@ void panel_init0(void)
 	IC74HC4511_INIT0;
 }
 
-void panel(void)
+void panel(int* dot)
 {
 	UCHAR count = 0;
 	DGIN_INIT;
@@ -85,7 +85,7 @@ void panel(void)
 	
 
 	DGIN_PROC( I_18,0,LOW,0,fTrg10ms);
-	BCNT_PROC( 9,fOFF,fOFF,I_18,F0617,F0618,F0619,F0620,&count);
+	BCNT_PROC( 9,fOFF,fOFF,I_18,F0617,F0618,F0619,F0620,&count,dot);
 	IC74HC4511_PROC( fOFF,fON,fON,F0617,F0618,F0619,F0620,F0914,F0915,F0916,F0917,F0918,F0919,F0920);
 	DGOUT_PROC( 30, F0914, HIGH );
 	DGOUT_PROC( 31, F0915, HIGH );
@@ -94,9 +94,11 @@ void panel(void)
 	DGOUT_PROC( 51, F0918, HIGH );
 	DGOUT_PROC( 52, F0919, HIGH );
 	DGOUT_PROC( 53, F0920, HIGH );
-	if(count>=10){
+
+	if(*dot == fON){
 	  DGOUT_PROC( 54, fON, HIGH );
+	}else{
+	  DGOUT_PROC( 54, fOFF, HIGH );
 	}
-	
 	
 }}}
